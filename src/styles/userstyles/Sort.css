@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+.MuiSelect-select:focus {
+    background-color: transparent !important;
+}
+
+.MuiMenuItem-root {
+    letter-spacing: 0.5px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}

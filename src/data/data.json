@@ -1,0 +1,387 @@
+{
+  "users": [
+    
+  ],
+
+  "admins": [
+    {
+      "id": "1",
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "admin",
+      "permissions": ["read", "write", "delete"],
+      "isActive": true
+    }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "name": "STYX Runner Pro",
+      "price": 3499,
+      "category": "Sports",
+      "audience": "Men",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "name": "STYX Urban Flex",
+      "price": 2999,
+      "category": "Casual",
+      "audience": "Men",
+      "image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": 3,
+      "name": "STYX Street Classic",
+      "price": 2799,
+      "category": "Casual",
+      "audience": "Women",
+      "image": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": 4,
+      "name": "STYX Air Motion",
+      "price": 3899,
+      "category": "Sports",
+      "audience": "Women",
+      "image": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": 5,
+      "name": "STYX Kid Sprint",
+      "price": 1999,
+      "category": "Sports",
+      "audience": "Kids",
+      "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+
+    {
+      "id": 6,
+      "name": "STYX Mini Walk",
+      "price": 1799,
+      "category": "Casual",
+      "audience": "Kids",
+      "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": 7,
+      "name": "STYX Velocity Max",
+      "price": 4199,
+      "category": "Sports",
+      "audience": "Men",
+      "image": "https://images.unsplash.com/photo-1600180758890-6b94519a8ba6?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": 8,
+      "name": "STYX Core Trainer",
+      "price": 3299,
+      "category": "Sports",
+      "audience": "Men",
+      "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": 9,
+      "name": "STYX Flex Run",
+      "price": 3599,
+      "category": "Sports",
+      "audience": "Women",
+      "image": "https://images.unsplash.com/photo-1605348532760-6753d2c43329?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": 10,
+      "name": "STYX Comfort Walk",
+      "price": 2499,
+      "category": "Casual",
+      "audience": "Women",
+      "image": "https://images.unsplash.com/photo-1584735175315-9d5df23860e6?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+
+    {
+      "id": 11,
+      "name": "STYX Daily Ease",
+      "price": 2399,
+      "category": "Casual",
+      "audience": "Men",
+      "image": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": 12,
+      "name": "STYX Street Pulse",
+      "price": 2899,
+      "category": "Casual",
+      "audience": "Women",
+      "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": 13,
+      "name": "STYX Junior Dash",
+      "price": 1899,
+      "category": "Sports",
+      "audience": "Kids",
+      "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": 14,
+      "name": "STYX Kid Active",
+      "price": 2099,
+      "category": "Sports",
+      "audience": "Kids",
+      "image": "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": 15,
+      "name": "STYX Little Comfort",
+      "price": 1699,
+      "category": "Casual",
+      "audience": "Kids",
+      "image": "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+
+    {
+      "id": 16,
+      "name": "STYX Urban Edge",
+      "price": 3199,
+      "category": "Casual",
+      "audience": "Men",
+      "image": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": 17,
+      "name": "STYX Glide Fit",
+      "price": 3699,
+      "category": "Sports",
+      "audience": "Women",
+      "image": "https://images.unsplash.com/photo-1552346154-21d32810aba3?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": 18,
+      "name": "STYX Motion Lite",
+      "price": 2899,
+      "category": "Sports",
+      "audience": "Men",
+      "image": "https://images.unsplash.com/photo-1520256862855-398228c41684?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": 19,
+      "name": "STYX Urban Bloom",
+      "price": 2699,
+      "category": "Casual",
+      "audience": "Women",
+      "image": "https://images.unsplash.com/photo-1519744792095-2f2205e87b6f?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": 20,
+      "name": "STYX Kid Joy",
+      "price": 1599,
+      "category": "Casual",
+      "audience": "Kids",
+      "image": "https://images.unsplash.com/photo-1604671801908-6f0c6a092c05?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+
+    {
+      "id": 21,
+      "name": "STYX Formal Classic",
+      "price": 4299,
+      "category": "Formals",
+      "audience": "Men",
+      "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=600&h=600&auto=format&fit=crop",
+      "isActive": true
+    },
+    {
+      "id": 22,
+      "name": "STYX Elegant Step",
+      "price": 3999,
+      "category": "Formals",
+      "audience": "Women",
+      "image": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": 23,
+      "name": "STYX Gentle Walk",
+      "price": 3599,
+      "category": "Formals",
+      "audience": "Men",
+      "image": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": 24,
+      "name": "STYX Little Gent",
+      "price": 1999,
+      "category": "Formals",
+      "audience": "Kids",
+      "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": 25,
+      "name": "STYX Lady Formal",
+      "price": 3899,
+      "category": "Formals",
+      "audience": "Women",
+      "image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+
+    {
+      "id": 26,
+      "name": "STYX Runner Lite",
+      "price": 3299,
+      "category": "Sports",
+      "audience": "Men",
+      "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": 27,
+      "name": "STYX Street Glide",
+      "price": 2799,
+      "category": "Casual",
+      "audience": "Men",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": 28,
+      "name": "STYX Air Comfort",
+      "price": 3699,
+      "category": "Sports",
+      "audience": "Women",
+      "image": "https://images.unsplash.com/photo-1600180758890-6b94519a8ba6?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": 29,
+      "name": "STYX Urban Sprint",
+      "price": 2999,
+      "category": "Casual",
+      "audience": "Women",
+      "image": "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": 30,
+      "name": "STYX Kid Racer",
+      "price": 1899,
+      "category": "Sports",
+      "audience": "Kids",
+      "image": "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+
+    {
+      "id": 31,
+      "name": "STYX Flexi Comfort",
+      "price": 2499,
+      "category": "Casual",
+      "audience": "Women",
+      "image": "https://images.unsplash.com/photo-1520256862855-398228c41684?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": 32,
+      "name": "STYX Motion Runner",
+      "price": 3199,
+      "category": "Sports",
+      "audience": "Men",
+      "image": "https://images.unsplash.com/photo-1552346154-21d32810aba3?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": 33,
+      "name": "STYX Casual Step",
+      "price": 2299,
+      "category": "Casual",
+      "audience": "Kids",
+      "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": 34,
+      "name": "STYX Air Glide",
+      "price": 3499,
+      "category": "Sports",
+      "audience": "Women",
+      "image": "https://images.unsplash.com/photo-1605348532760-6753d2c43329?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": 35,
+      "name": "STYX Comfort Run",
+      "price": 2699,
+      "category": "Casual",
+      "audience": "Men",
+      "image": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+
+    {
+      "id": 36,
+      "name": "STYX Urban Move",
+      "price": 2999,
+      "category": "Casual",
+      "audience": "Women",
+      "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": 37,
+      "name": "STYX Mini Formal",
+      "price": 1799,
+      "category": "Formals",
+      "audience": "Kids",
+      "image": "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": 38,
+      "name": "STYX Flex Run Pro",
+      "price": 3899,
+      "category": "Sports",
+      "audience": "Men",
+      "image": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": 39,
+      "name": "STYX Street Comfort",
+      "price": 2399,
+      "category": "Casual",
+      "audience": "Women",
+      "image": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": 40,
+      "name": "STYX Elegant Walk",
+      "price": 4199,
+      "category": "Formals",
+      "audience": "Men",
+      "image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=400&h=400&fit=crop&q=60",
+      "isActive": true
+    }
+  ]
+}

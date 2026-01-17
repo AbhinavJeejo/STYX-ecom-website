@@ -1,0 +1,13 @@
+
+.dark-theme {
+    /* Dark theme styles will be added here */
+}
+
+/* Force icons to be visible */
+.MuiSvgIcon-root {
+    color: #000000;
+}
+
+.dark-theme .MuiSvgIcon-root {
+    color: #ffffff;
+}

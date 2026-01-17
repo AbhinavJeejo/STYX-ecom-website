@@ -1,0 +1,53 @@
+.admin-dashboard {
+  display: flex;
+  max-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background: #F4F6F8;
+}
+
+.sidebar {
+  width: 250px;
+  background: #111827;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+}
+
+.sidebar-logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #D6A76C;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 12px 0;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.sidebar ul li:hover {
+  color: #D6A76C;
+}
+
+.logout-btn {
+  background: #D6A76C !important;
+  color: #111827 !important;
+  font-weight: 600 !important;
+  border-radius: 12px !important;
+  margin-top: 2rem !important;
+}
+
+.main-content {
+  flex: 1;
+  overflow-y: auto;
+}
+

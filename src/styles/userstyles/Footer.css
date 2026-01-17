@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
+.footer-container {
+  background-color: #111827;
+  color: #ffffff;
+  padding: 40px 20px 30px 20px; /* Increased top padding */
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: auto; /* Ensures footer stays at bottom if content is short */
+}
+
+.footer-content {
+  max-width: 1200px; /* Reduced from 1600px for better proportions */
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: flex-start; /* Align columns to top */
+}
+
+.footer-brand-section {
+  flex: 1;
+  min-width: 280px;
+  max-width: 350px; /* Prevent brand section from getting too wide */
+}
+
+.footer-logo {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: #D6A76C;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+
+.footer-description {
+  color: #9CA3AF;
+  line-height: 1.8;
+  font-size: 14px;
+  max-width: 320px;
+}
+
+.footer-links-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Better than flex for equal columns */
+  gap: 40px;
+  flex: 2;
+  max-width: 800px; /* Limit width of links section */
+}
+
+.footer-column {
+  min-width: 150px;
+}
+
+.footer-column h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  white-space: nowrap; /* Prevent title from wrapping */
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column li {
+  color: #9CA3AF;
+  font-size: 14px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+.footer-column li:hover {
+  color: #D6A76C;
+  transform: translateX(5px);
+}
+
+.footer-bottom {
+  max-width: 1200px; /* Match .footer-content width */
+  margin: 60px auto 0 auto;
+  padding-top: 30px;
+  border-top: 1px solid rgba(156, 163, 175, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #6B7280;
+  font-size: 13px;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  gap: 20px; /* Add gap for better spacing when wrapped */
+}
+
+.footer-socials {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.footer-socials span {
+  cursor: pointer;
+  font-size: 18px;
+  transition: color 0.3s ease;
+  display: inline-flex; /* Better alignment for icons */
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-socials span:hover {
+  color: #D6A76C;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .footer-content {
+    max-width: 95%;
+    gap: 30px;
+  }
+  
+  .footer-links-grid {
+    grid-template-columns: repeat(2, 1fr); /* Fixed 2 columns on tablet */
+    gap: 30px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .footer-container {
+    padding: 40px 20px 30px 20px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer-brand-section {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .footer-description {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .footer-links-grid {
+    grid-template-columns: 1fr; /* Single column on mobile */
+    gap: 30px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .footer-column {
+    text-align: center;
+  }
+
+  .footer-column h3 {
+    white-space: normal; /* Allow wrapping on mobile */
+  }
+
+  .footer-column li {
+    white-space: normal;
+  }
+
+  .footer-column li:hover {
+    transform: none; /* Remove transform on mobile for better UX */
+  }
+
+  .footer-bottom {
+    flex-direction: column-reverse;
+    gap: 25px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .footer-socials {
+    justify-content: center;
+  }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+  .footer-container {
+    padding: 30px 15px 20px 15px;
+  }
+  
+  .footer-content {
+    gap: 30px;
+  }
+  
+  .footer-links-grid {
+    gap: 20px;
+  }
+}

@@ -1,0 +1,73 @@
+.admin-orders-page {
+  padding: 24px;
+  background: #f4f6f8;
+  min-height: 100vh;
+}
+
+.admin-orders-page h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+.admin-orders-page .MuiTable-root {
+  background: #ffffff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.admin-orders-page .MuiTableHead-root {
+  background: #f9fafb;
+}
+
+.admin-orders-page .MuiTableCell-head {
+  font-weight: 600;
+  font-size: 13px;
+  color: #374151;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.admin-orders-page .MuiTableCell-body {
+  font-size: 14px;
+  color: #111827;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.admin-orders-page .MuiTableRow-root:hover {
+  background: #f9fafb;
+}
+
+.admin-orders-page .MuiSelect-select {
+  font-size: 13px;
+  padding: 6px 10px;
+}
+
+.admin-orders-page .MuiOutlinedInput-root {
+  border-radius: 8px;
+}
+
+.admin-orders-page .MuiMenuItem-root {
+  font-size: 13px;
+}
+
+.admin-orders-page .Mui-disabled {
+  opacity: 0.6;
+}
+
+@media (max-width: 900px) {
+  .admin-orders-page {
+    padding: 16px;
+  }
+
+  .admin-orders-page h2 {
+    font-size: 18px;
+  }
+
+  .admin-orders-page .MuiTableCell-root {
+    padding: 10px;
+    font-size: 12px;
+  }
+}

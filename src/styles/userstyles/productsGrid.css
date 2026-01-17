@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 40px;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0px 20px 20px 20px;
+}
+
+.scroll-reveal-card {
+  opacity: 0;
+  filter: blur(15px) brightness(1.2);
+  transform: translateY(40px) scale(0.95);
+  transition: all 0.7s cubic-bezier(0.25, 1, 0.5, 1);
+  will-change: transform, filter, opacity;
+}
+
+.scroll-reveal-card.reveal-visible {
+  opacity: 1;
+  filter: blur(0px) brightness(1);
+  transform: translateY(0) scale(1);
+}
+
+.scroll-reveal-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  transition: transform 0.4s ease;
+  z-index: 10;
+}
+
+.brand-banner-container,
+.shoe-banner-container {
+  grid-column: 1 / -1;
+  width: 100%;
+  position: relative;
+  z-index: 5;
+}
+
+.brand-banner-container {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.product-card {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
