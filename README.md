@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 👟 ShoeStore: Full-Stack Logic E-Commerce
 A high-performance Shoe E-Commerce application designed to simulate complex real-world workflows. This project demonstrates advanced React patterns, Role-Based Access Control (RBAC), and persistence logic using a simulated backend environment.
 
@@ -14,6 +15,25 @@ A high-performance Shoe E-Commerce application designed to simulate complex real
 
 🔐 Security & Logic
 
+=======
+
+👟 ShoeStore: Full-Stack Logic E-Commerce
+A high-performance Shoe E-Commerce application designed to simulate complex real-world workflows. This project demonstrates advanced React patterns, Role-Based Access Control (RBAC), and persistence logic using a simulated backend environment.
+
+📖 Table of Contents
+🚀 Live Demo
+
+🧩 Tech Stack
+
+🏗️ Architecture
+
+👤 User Features
+
+🛠️ Admin Features
+
+🔐 Security & Logic
+
+>>>>>>> ec75ca4b735e8a01811fd1524f733486dafc0904
 📱 Responsive Design
 
 ⚙️ Setup & Installation
@@ -41,7 +61,10 @@ Data Persistence: LocalStorage API (Mock Backend Architecture)
 🏗️ Architecture
 The project follows a scalable, component-based folder structure
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ec75ca4b735e8a01811fd1524f733486dafc0904
 👤 User Features
 1. Advanced Authentication
 Session Persistence: Login states survive page refreshes.
@@ -98,7 +121,11 @@ Clone the repo
 
 Bash
 
+<<<<<<< HEAD
 git clone https://github.com/yourusername/shoe-ecommerce.git
+=======
+git clone https://github.com/AbhinavJeejo/STYX-ecom-website
+>>>>>>> ec75ca4b735e8a01811fd1524f733486dafc0904
 Install dependencies
 
 Bash
@@ -117,4 +144,8 @@ npm run build
 🙌 Author
 Shoe E-Commerce Web App Designed and Developed by [Your Name]
 
+<<<<<<< HEAD
 Focused on clean code, user experience, and robust frontend logic.
+=======
+Focused on clean code, user experience, and robust frontend logic.
+>>>>>>> ec75ca4b735e8a01811fd1524f733486dafc0904
